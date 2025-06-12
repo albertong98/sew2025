@@ -166,7 +166,7 @@ class XML2HTML{
         section.append(div);
 
         var map = new google.maps.Map(div, {
-          center: new google.maps.LatLng(lat,long),
+          center: new google.maps.LatLng(-19.257753, 146.823688),
           zoom: 2,
           mapTypeId: 'terrain'
         });
