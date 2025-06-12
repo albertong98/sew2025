@@ -1,0 +1,156 @@
+/* Alberto Núñez García UO258455 */
+
+/*Especificidad: 001*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: normal; 
+    font-variant: normal;
+    font-size: 1.1em;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Especificidad: 001*/
+main{
+    width: 100%;
+    height: auto;
+}
+
+/*Especificidad: 001*/
+header{
+    background-color: #5d0600;
+    color: #FFFFFF;
+    padding: 1%;
+}
+
+/*Especificidad: 001*/
+h1{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*Especificidad: 002*/
+h1>a{
+    text-decoration: none;
+}
+
+/*Especificidad: 002*/
+main>p{
+    font-size: 0.9em;
+    padding: 1%;
+}
+
+/*Especificidad: 001*/
+article{
+    padding: 1%;
+}
+
+/*Especificidad: 002*/
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+/*Especificidad: 001*/
+nav{
+    font-size: 1.2em;
+}
+
+/*Especificidad: 002*/
+header a{
+    border-radius: 0.2em;
+}
+
+/*Especificidad: 012*/
+header a:link{
+    background-color: #290300;
+    color: #ffffff;
+}
+
+/*Especificidad: 012*/
+header a:visited{
+    background-color: inherit;
+    color: inherit;
+}
+
+/*Especificidad: 012*/
+header a:focus {
+    background: #0f3100;
+    color: #ffffff;
+}
+
+/*Especificidad: 012*/
+header a:hover {
+    background: #0f3100;
+    color: #ffffff;
+}
+
+/*Especificidad: 012*/
+nav > a.active {
+    background: #3b014d;
+    color: #ffffff;
+}
+/*Especificidad: 002*/
+section ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/*Especificidad: 002*/
+ol > ul{
+    list-style-position: inside;
+}
+
+/*Especificidad: 001*/
+dt {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*Especificidad: 001*/
+dd {
+    margin-bottom: 1.5em;
+}
+
+/*Especificidad: 001*/
+table, td, th{
+    padding: 0.5em;
+    border-style: solid;
+    border-collapse: collapse;   
+}
+
+/*Especificidad: 001*/
+th, td{
+    background-color: #A00E03;
+    color:#FFFFFF;
+}
+
+/*Especificidad: 001*/
+footer{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+    /*Especificidad: 002*/
+    body>p{
+        display: none;
+    }
+}
+
+/*Especificidad: 001*/
+svg{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/*Especificidad: 001*/
+picture{
+    width: auto;
+    height: 5%;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}

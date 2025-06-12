@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+
+		<Placemark>
+			<name>La Robellada</name>
+			<Point><coordinates>-4.9228398586252196,43.34606452269041,329</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Vistas a Picos de Europa</name>
+			<Point><coordinates>-4.9358294,43.3488958,529</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Collada Pozabal</name>
+			<Point><coordinates>-4.9502625,43.3628415,656</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Laguna</name>
+			<Point><coordinates>-4.9598611,43.3696468,732</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Última subida hacia el Hibéu</name>
+			<Point><coordinates>-4.958479,43.3642776,779</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Pico Hibéu</name>
+			<Point><coordinates>-4.9598611,43.3696468,856</coordinates></Point>
+		</Placemark>
+
+	</Document>
+</kml>

@@ -1,0 +1,14 @@
+/* Alberto Núñez García UO258455 */
+/* Especificidad: 001 */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Especificidad: 001*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}

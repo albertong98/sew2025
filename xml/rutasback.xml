@@ -1,0 +1,268 @@
+<ruta id="" recomendacion="">
+        <nombre></nombre>
+        <tipo></tipo>
+        <medio></medio>
+        <duracion unidades=""></duracion>
+        <agencia></agencia>
+        <descripcion></descripcion>
+        <personasAdecuadas></personasAdecuadas>
+        <inicio>
+            <fecha></fecha>
+            <hora></hora>
+            <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+            </coordenadas>
+            <lugar></lugar>
+            <direccion></direccion>
+        </inicio>
+        <referencias>
+            <referencia></referencia>
+            <referencia></referencia>
+            <referencia></referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+        </hitos>
+        <planimetria></planimetria>
+        <altimetria></altimetria>
+    </ruta>
+    <ruta id="" recomendacion="">
+        <nombre></nombre>
+        <tipo></tipo>
+        <medio></medio>
+        <duracion unidades=""></duracion>
+        <agencia></agencia>
+        <descripcion></descripcion>
+        <personasAdecuadas></personasAdecuadas>
+        <inicio>
+            <fecha></fecha>
+            <hora></hora>
+            <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+            </coordenadas>
+            <lugar></lugar>
+            <direccion></direccion>
+        </inicio>
+        <referencias>
+            <referencia></referencia>
+            <referencia></referencia>
+            <referencia></referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+            <hito>
+                <nombre></nombre>
+                <descripcion>
+
+                </descripcion>
+                <coordenadas>
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud unidades="m"></altitud>
+                </coordenadas>
+                <distancia unidades="km"></distancia>
+                <fotos>
+                <!-- NOTA PARA MI: NO INCLUIR ENLACES, SOLO ARCHIVO LOCAL -->
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                    <foto titulo=""></foto>
+                </fotos>
+                <videos>
+                
+                </videos>
+            </hito>
+        </hitos>
+        <planimetria></planimetria>
+        <altimetria></altimetria>
+    </ruta>

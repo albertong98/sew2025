@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+
+		<Placemark>
+			<name>Ayuntamiento de Onís</name>
+			<Point><coordinates>-4.969117002856396,43.33472002664907,290</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Cueva del Buxu</name>
+			<Point><coordinates>-5.100923141840025,43.36110347780469,200</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Cueva de los Azules</name>
+			<Point><coordinates>-5.131429,43.359864,90</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Dolmen de Santa Cruz</name>
+			<Point><coordinates>-5.129456822699941,43.35314967453683,80</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Lagos de Covadonga</name>
+			<Point><coordinates>-4.99252858062199,43.27210856903858,1090</coordinates></Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Santuario de Covadonga</name>
+			<Point><coordinates>-5.05495548626579,43.30997959908577,260</coordinates></Point>
+		</Placemark>
+
+	</Document>
+</kml>

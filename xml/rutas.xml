@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta id="pico-hibeu" recomendacion="5">
+        <nombre>Pico Ibéu desde La Robellada</nombre>
+        <tipo>Senderismo</tipo>
+        <medio>A pie</medio>
+        <duracion unidades="horas">3</duracion>
+        <agencia>Onís y punto</agencia>
+        <descripcion>Ruta de senderismo de dificultad media, que sube hasta el pico Ibéu desde la Robellada. Desde el pico se pueden apreciar las vistas de los macizos Central y Occidental de los Picos de Europa, el mar Cantábrico y las Sierras del Sueve y del Cuera.</descripcion>
+        <personasAdecuadas>Personas en buena forma física</personasAdecuadas>
+        <inicio>
+            <fecha>22/06/2025</fecha>
+            <hora>11:00</hora>
+            <coordenadas>
+                    <latitud>43.34606452269041</latitud>
+                    <longitud>-4.9228398586252196</longitud>
+                    <altitud unidades="m">329</altitud>
+            </coordenadas>
+            <lugar>La Robellada</lugar>
+            <direccion>Bo. la Candanosa</direccion>
+        </inicio>
+        <referencias>
+            <referencia>https://www.onisecoturismo.es/turismo-activo/rutas-senderismo/ruta-pico-hibeu/</referencia>
+            <referencia>https://www.escapadarural.com/que-hacer/la-robellada</referencia>
+            <referencia>https://es.wikipedia.org/wiki/La_Robellada</referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre>Vistas a Picos de Europa</nombre>
+                <descripcion>Punto que cuenta desde el que se pueden visualizar los picos de Europa, perfecto para tomar un descanso y parar a almorzar.</descripcion>
+                <coordenadas>
+                    <latitud>43.3488958</latitud>
+                    <longitud>-4.9358294</longitud>
+                    <altitud unidades="m">529</altitud>
+                </coordenadas>
+                <distancia unidades="m">1317</distancia>
+                <fotos>
+                    <foto titulo="Mirador a los picos de Europa">picos-europa.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Collada Pozabal</nombre>
+                <descripcion>Cuenta con unas preciosas vistas para tomar fotografias de recuerdo.</descripcion>
+                <coordenadas>
+                    <latitud>43.3628415</latitud>
+                    <longitud>-4.9502625</longitud>
+                    <altitud unidades="m">656</altitud>
+                </coordenadas>
+                <distancia unidades="m">2221</distancia>
+                <fotos>
+                    <foto titulo="Collado Pozabal">collado-pozabal.jpg</foto>
+                    <foto titulo="Vistas desde collado Pozabal">vistas-collado.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Laguna</nombre>
+                <descripcion>Laguna cercana a la cima del pico, se recomienda tener cuidado ya que el agua puede ser peligrosa.</descripcion>
+                <coordenadas>
+                    <latitud>43.3696468</latitud>
+                    <longitud>-4.9598611</longitud>
+                    <altitud unidades="m">732</altitud>
+                </coordenadas>
+                <distancia unidades="m">630</distancia>
+                <fotos>
+                    <foto titulo="Foto de la laguna">laguna.png</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Última subida hacia el Hibéu</nombre>
+                <descripcion>Último tramo de subida antes de llegar al pico. Se trata del tramo más complicado de atravesar de la ruta por lo que se recomienda avanzar con precaucion</descripcion>
+                <coordenadas>
+                    <latitud>43.3642776</latitud>
+                    <longitud>-4.958479</longitud>
+                    <altitud unidades="m">779</altitud>
+                </coordenadas>
+                <distancia unidades="m">262</distancia>
+                <fotos>
+                    <foto titulo="Última subida al pico">ultima-subida.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Pico Hibéu</nombre>
+                <descripcion>Punto más alto y final de la ruta, perfecto para parar a tomar la comida.</descripcion>
+                <coordenadas>
+                    <latitud>43.3696468</latitud>
+                    <longitud>-4.9598611</longitud>
+                    <altitud unidades="m">856</altitud>
+                </coordenadas>
+                <distancia unidades="m">215</distancia>
+                <fotos>
+                    <foto titulo="Cima del pico Hibeu">pico-hibeu.jpg</foto>
+                </fotos>
+                <videos>
+                    <video>pico-hibeu.mp4</video>
+                </videos>
+            </hito>
+        </hitos>
+        <planimetria>kml/pico-hibeu.kml</planimetria>
+        <altimetria>svg/pico-hibeu.svg</altimetria>
+    </ruta>
+    <ruta id="naturaleza-historia" recomendacion="5">
+        <nombre>Naturaleza e historia en el Concejo de Onís</nombre>
+        <tipo>Ruta en coche</tipo>
+        <medio>Coche</medio>
+        <duracion unidades="horas">2</duracion>
+        <agencia>Asturias turismo</agencia>
+        <descripcion>Ruta que recorre distintos puntos del concejo en el que podemos encontrar rastros de civilización prehistorica en la comunidad de Asturias, que empieza en Benia de Onís y acaba en los Lagos de Covadonga. Se realiza en coche y tiene una duración apróximada de 2 horas</descripcion>
+        <personasAdecuadas>Personas que dispongan de vehiculo particular</personasAdecuadas>
+        <inicio>
+            <fecha>29/06/2025</fecha>
+            <hora>16:00</hora>
+            <coordenadas>
+                    <latitud>43.33472002664907</latitud>
+                    <longitud>-4.969117002856396</longitud>
+                    <altitud unidades="m">290</altitud>
+            </coordenadas>
+            <lugar>Ayuntamiento de Onís</lugar>
+            <direccion>Carr. General, 33556 Benia de Onís, Asturias</direccion>
+        </inicio>
+        <referencias>
+            <referencia>https://es.wikipedia.org/wiki/Santa_Cueva_de_Covadonga</referencia>
+            <referencia>https://www.turismoasturias.es/es/descubre/cultura/arte-rupestre/rupestre-cueva-de-el-buxu</referencia>
+            <referencia>https://www.turismoasturias.es/es/descubre/cultura/arte-rupestre/rupestre-cueva-de-los-azules</referencia>
+            <referencia>https://lagosdecovadonga.org/</referencia>
+            <referencia>https://www.asturiesculturaenrede.es/es/patrimonio/35/dolmen-de-santa-cruz.html</referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre>Cueva del Buxu</nombre>
+                <descripcion>Se trata de una cueva ubicada en el Principado de Asturias. Dentro se pueden encontar pinturas prehistoricas, algunas de ellas se encuentran expuestas en el Museo Arqueológico de Asturias</descripcion>
+                <coordenadas>
+                    <latitud>43.36110347780469</latitud>
+                    <longitud>-5.100923141840025</longitud>
+                    <altitud unidades="m">200</altitud>
+                </coordenadas>
+                <distancia unidades="km">13.2</distancia>
+                <fotos>
+                    <foto titulo="Cueva del Buxu">cueva-del-buxu.jpg</foto>
+                    <foto titulo="Pinturas prehistoricas en la cueva del Buxu">pinturas-buxu.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Cueva de los Azules</nombre>
+                <descripcion>Estos abrigos rocosos situados en la ladera del monte Llueves tienen la importancia de ser el primer enterramiento de Asturias y contener la escena más completa del período Epipaleolítico</descripcion>
+                <coordenadas>
+                    <latitud>43.359864</latitud>
+                    <longitud>-5.131429</longitud>
+                    <altitud unidades="m">90</altitud>
+                </coordenadas>
+                <distancia unidades="km">5.5</distancia>
+                <fotos>
+                    <foto titulo="Cueva de los Azules">cueva-azules.jpg</foto>
+                    <foto titulo="Restos prehistoricos en la cueva de los Azules">restos-azules.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Dolmen de Santa Cruz</nombre>
+                <descripcion>Dolmen ubicado bajo un templo católico originado en la Edad Media, que tuvo una reconstruccion en la decada de los 50. El Dolmen data de aproximadamente el año 3000 a.c y tiene forma poligonal.</descripcion>
+                <coordenadas>
+                    <latitud>43.35314967453683</latitud>
+                    <longitud>-5.129456822699941</longitud>
+                    <altitud unidades="m">80</altitud>
+                </coordenadas>
+                <distancia unidades="km">2.8</distancia>
+                <fotos>
+                    <foto titulo="Dolmen de Santa Cruz">dolmen.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Santuario de Covadonga</nombre>
+                <descripcion>El santuario está compuesto por varios elementos, entre los que destacan la Santa Cueva, donde se venera a la Virgen de Covadonga (La Santina), y la Basílica de Santa María la Real de Covadonga</descripcion>
+                <coordenadas>
+                    <latitud>43.30997959908577</latitud>
+                    <longitud>-5.05495548626579</longitud>
+                    <altitud unidades="m">260</altitud>
+                </coordenadas>
+                <distancia unidades="km">10.3</distancia>
+                <fotos>
+                    <foto titulo="Santa Cueva de Covadonga">santuario.jpg</foto>
+                </fotos>
+            </hito>
+            <hito>
+                <nombre>Lagos de Covadonga</nombre>
+                <descripcion>Los lagos de Covadonga están constituidos por dos lagos de origen glaciar, el Enol y el Ercina.</descripcion>
+                <coordenadas>
+                    <latitud>43.27210856903858</latitud>
+                    <longitud>-4.99252858062199</longitud>
+                    <altitud unidades="m">1090</altitud>
+                </coordenadas>
+                <distancia unidades="km">11</distancia>
+                <fotos>
+                    <foto titulo="Lago Enol">lago-enol.jpg</foto>
+                    <foto titulo="Lago Ercina">lago-ercina.jpg</foto>
+                </fotos>
+            </hito>
+        </hitos>
+        <planimetria>kml/naturaleza-historia.kml</planimetria>
+        <altimetria>svg/naturaleza-historia.svg</altimetria>
+    </ruta>
+</rutas>
