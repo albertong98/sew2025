@@ -118,8 +118,8 @@ class XML2HTML{
                         $(sectionHito).append(stringDatosHito);
                         $(article).append(sectionHito);
                     })
-                    xml2html.insertKML('xml/kml/'+$(rutas[indice]).attr('id')+'.kml',article,Number(latitudInicio),Number(longitudInicio));
-                    xml2html.insertSVG('xml/svg/'+$(rutas[indice]).attr('id')+'.svg',article);
+                    xml2html.insertKML('xml/'+$('planimetria',rutas[indice]),article,Number(latitudInicio),Number(longitudInicio));
+                    xml2html.insertSVG('xml/'+$('altimetria',rutas[indice]),article);
                     $('main').append(article);
                 });
             }.bind(this)
@@ -136,10 +136,6 @@ class XML2HTML{
 
         var raster = new ol.layer.Tile({
             source: new ol.source.OSM()
-            //source: new ol.source.BingMaps({
-            //imagerySet: 'Aerial',
-            //key: 'Your Bing Maps Key from http://www.bingmapsportal.com/ here'
-            //})
         });
 
         var vector = new ol.layer.Vector({
@@ -147,6 +143,17 @@ class XML2HTML{
                 url: file,
                 format: new ol.format.KML()
             })
+        });
+
+        vector.getSource().on('change', (e) => {
+            const source = e.target;
+            if (source.getState() === 'ready') {
+                const extent = source.getExtent();
+                this.mapa.getView().fit(extent, {
+                    padding: [50, 50, 50, 50],
+                    maxZoom: 15
+                });
+            }
         });
 
         var map = new ol.Map({
