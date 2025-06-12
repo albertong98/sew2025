@@ -118,7 +118,7 @@ class XML2HTML{
                         $(sectionHito).append(stringDatosHito);
                         $(article).append(sectionHito);
                     })
-                    xml2html.insertKMLGoogle('../xml/kml/'+$(rutas[indice]).attr('id')+'.kml',article,Number(latitudInicio),Number(longitudInicio));
+                    xml2html.insertKMLGoogle('xml/kml/'+$(rutas[indice]).attr('id')+'.kml',article,Number(latitudInicio),Number(longitudInicio));
                     xml2html.insertSVG('xml/svg/'+$(rutas[indice]).attr('id')+'.svg',article);
                     $('main').append(article);
                 });
@@ -176,7 +176,7 @@ class XML2HTML{
           preserveViewport: false,
           map: map
         });
-
+        
         console.log(section);
         $(article).append(section);
     }
