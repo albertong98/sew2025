@@ -118,7 +118,7 @@ class XML2HTML{
                         $(sectionHito).append(stringDatosHito);
                         $(article).append(sectionHito);
                     })
-                    xml2html.insertKMLGoogle('xml/kml/'+$(rutas[indice]).attr('id')+'.kml',article,Number(latitudInicio),Number(longitudInicio));
+                    xml2html.insertKML('xml/kml/'+$(rutas[indice]).attr('id')+'.kml',article,Number(latitudInicio),Number(longitudInicio));
                     xml2html.insertSVG('xml/svg/'+$(rutas[indice]).attr('id')+'.svg',article);
                     $('main').append(article);
                 });
@@ -126,10 +126,12 @@ class XML2HTML{
         });
     }
 
-    insertKML(file,section) {
+    insertKML(file,article,lat,lon) {
+        var section = document.createElement('section');
         $(section).append('<h4>Planimetría de la ruta</h4>');
         var div = document.createElement('div');
         section.append(div);
+        $(article).append(section);
         //var projection = ol.proj.get('EPSG:3857');
 
         var raster = new ol.layer.Tile({
@@ -151,7 +153,7 @@ class XML2HTML{
             layers: [raster, vector],
             target: div,
             view: new ol.View({
-            center: ol.proj.fromLonLat([7.817, 47.133]),
+            center: ol.proj.fromLonLat([lon, lat]),
             //projection: projection,
             zoom: 11
             })
@@ -165,7 +167,7 @@ class XML2HTML{
         var div = document.createElement('div');
         section.append(div);
 
-        var map = new google.maps.Map(div, {
+        var map = new google.maps.Map(document.querySelector('div'), {
           center: new google.maps.LatLng(-19.257753, 146.823688),
           zoom: 2,
           mapTypeId: 'terrain'
