@@ -158,7 +158,7 @@ class XML2HTML{
         });
     }
 
-    
+//insertKMLGoogle(src,article,lat, long)
     insertKMLGoogle(src,article,lat, long) {
         var section = document.createElement('section');
         $(section).append('<h4>Planimetría de la ruta</h4>');
@@ -171,11 +171,11 @@ class XML2HTML{
           mapTypeId: 'terrain'
         });
 
-        var kmlLayer = new google.maps.KmlLayer(src, {
+        /*var kmlLayer = new google.maps.KmlLayer(src, {
           suppressInfoWindows: true,
           preserveViewport: false,
           map: map
-        });
+        });*/
         
         console.log(section);
         $(article).append(section);
