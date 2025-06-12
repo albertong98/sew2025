@@ -135,7 +135,7 @@ class XML2HTML{
         //var projection = ol.proj.get('EPSG:3857');
 
         var raster = new ol.layer.Tile({
-            source: ol.source.OSM()
+            source: new ol.source.OSM()
             //source: new ol.source.BingMaps({
             //imagerySet: 'Aerial',
             //key: 'Your Bing Maps Key from http://www.bingmapsportal.com/ here'
