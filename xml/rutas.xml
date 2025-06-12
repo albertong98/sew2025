@@ -96,7 +96,7 @@
                 </videos>
             </hito>
         </hitos>
-        <planimetria>kml/pico-hibeu.kml</planimetria>
+        <planimetria>pico-hibeu.kml</planimetria>
         <altimetria>svg/pico-hibeu.svg</altimetria>
     </ruta>
     <ruta id="naturaleza-historia" recomendacion="5">
