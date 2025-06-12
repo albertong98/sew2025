@@ -118,8 +118,8 @@ class XML2HTML{
                         $(sectionHito).append(stringDatosHito);
                         $(article).append(sectionHito);
                     })
-                    xml2html.insertKML('xml/'+$('planimetria',rutas[indice]),article,Number(latitudInicio),Number(longitudInicio));
-                    xml2html.insertSVG('xml/'+$('altimetria',rutas[indice]),article);
+                    xml2html.insertKML('xml/'+$('planimetria',rutas[indice]).text(),article,Number(latitudInicio),Number(longitudInicio));
+                    xml2html.insertSVG('xml/'+$('altimetria',rutas[indice]).text(),article);
                     $('main').append(article);
                 });
             }.bind(this)
